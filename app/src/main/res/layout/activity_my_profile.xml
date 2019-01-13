@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="50dp"
+    android:background="@color/white"
+
+    android:gravity="center_horizontal"
+
+    tools:context=".myProfile">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangle_black"
+            android:weightSum="2"
+            >
+            <TableRow
+                android:paddingHorizontal="5dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLightGray"
+                    android:text="Full Name"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Usama Asif"
+                    android:textColor="@color/white"
+                    android:id="@+id/txt_profile_name"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:paddingHorizontal="5dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorLightGray"
+                    android:text="Email address"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:text="flink334@gmail.com"
+                    android:id="@+id/txt_profile_email"/>
+
+            </TableRow>
+
+        </TableLayout>
+         <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:padding="5dp"
+             android:layout_marginTop="15dp"
+             android:background="@drawable/rectangle_black">
+             <TableRow
+                 android:paddingHorizontal="5dp">
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textSize="16dp"
+                     android:textColor="@color/colorLightGray"
+                     android:text="Gender"/>
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="@color/white"
+                     android:text="Pakistan"
+                     android:id="@+id/txt_profile_gender"/>
+
+             </TableRow>
+             <TableRow
+                 android:paddingHorizontal="5dp">
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textSize="16dp"
+                     android:textColor="@color/colorLightGray"
+                     android:text="Contact No"/>
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="@color/white"
+                     android:text="03319868354"
+                     android:id="@+id/txt_profile_number"/>
+
+             </TableRow>
+
+             <TableRow
+                 android:paddingHorizontal="5dp">
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textSize="16dp"
+                     android:textColor="@color/colorLightGray"
+                     android:text="City Name"/>
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="@color/white"
+                     android:text="Rawalpindi"
+                     android:id="@+id/txt_profile_city"/>
+
+             </TableRow>
+             <!--<TableRow>-->
+                 <!--<TextView-->
+                     <!--android:layout_width="0dp"-->
+                     <!--android:layout_height="wrap_content"-->
+                     <!--android:layout_weight="1"-->
+
+                     <!--android:textSize="16dp"-->
+                     <!--android:textColor="@color/colorLightGray"-->
+                     <!--android:text="Date Of Birth"/>-->
+                 <!--<TextView-->
+                     <!--android:layout_width="0dp"-->
+                     <!--android:layout_height="wrap_content"-->
+                     <!--android:layout_weight="1"-->
+                     <!--android:textColor="@color/black"-->
+                     <!--android:text="05-06-1997"-->
+                     <!--android:id="@+id/txt_profile_dob"/>-->
+
+             <!--</TableRow>-->
+             <TableRow
+                 android:paddingHorizontal="5dp">
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textSize="16dp"
+                     android:textColor="@color/colorLightGray"
+                     android:text="Blood Group"/>
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="@color/white"
+                     android:text="0+ve"
+                     android:id="@+id/txt_profile_bgroup"/>
+
+             </TableRow>
+             <TableRow
+                 android:paddingHorizontal="5dp">
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textStyle="bold"
+                     android:textSize="16dp"
+                     android:textColor="@color/colorLightGray"
+                     android:text="Donation Date"/>
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_weight="1"
+                     android:textColor="@color/white"
+                     android:text="flink334@gmail.com"
+                     android:id="@+id/txt_profile_donation_date"/>
+
+             </TableRow>
+         </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:id="@+id/btn_update_profile"
+        android:text="Update Profile"
+        android:textSize="16dp"
+        android:paddingVertical="5dp"
+        android:textColorLink="@color/white"
+
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"/>
+
+
+
+</LinearLayout>

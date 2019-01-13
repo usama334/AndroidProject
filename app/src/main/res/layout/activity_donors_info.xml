@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".donors_info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor's Info"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+    <TableLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+
+        android:weightSum="2"
+        >
+        <TableRow
+
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Full Name"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Usama Asif"
+                android:textColor="@color/black"
+                android:id="@+id/txt_donor_name"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="Email address"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="flink334@gmail.com"
+                android:id="@+id/txt_donor_email"/>
+
+        </TableRow>
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rectangle_black">
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorLightGray"
+                android:text="Gender"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Pakistan"
+                android:id="@+id/txt_donor_gender"/>
+
+        </TableRow>
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorLightGray"
+                android:text="Contact No"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="03319868354"
+                android:id="@+id/txt_donor_number"/>
+
+        </TableRow>
+
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorLightGray"
+                android:text="City Name"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Rawalpindi"
+                android:id="@+id/txt_donor_city"/>
+
+        </TableRow>
+        <!--<TableRow>-->
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+
+        <!--android:textSize="16dp"-->
+        <!--android:textColor="@color/colorLightGray"-->
+        <!--android:text="Date Of Birth"/>-->
+        <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:text="05-06-1997"-->
+        <!--android:id="@+id/txt_profile_dob"/>-->
+
+        <!--</TableRow>-->
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorLightGray"
+                android:text="Blood Group"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="0+ve"
+                android:id="@+id/txt_donor_bgroup"/>
+
+        </TableRow>
+        <TableRow
+            android:paddingHorizontal="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/colorLightGray"
+                android:text="Donation Date"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="1-1-2019"
+                android:id="@+id/txt_profile_donation_date"/>
+
+        </TableRow>
+    </TableLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:weightSum="3"
+       android:gravity="center_horizontal"
+       android:orientation="horizontal">
+       <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/buttons"
+       android:id="@+id/btn_contact_donor"
+       android:text="Dial A Call"
+       android:layout_marginHorizontal="5dp"
+       android:textSize="16dp"
+       android:paddingVertical="5dp"
+       android:textColorLink="@color/white"
+
+       android:paddingHorizontal="10dp"
+       android:textColor="@color/black"
+       android:layout_marginTop="15dp"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/buttons"
+           android:id="@+id/btn_msg_donor"
+           android:text="Message"
+           android:layout_marginHorizontal="5dp"
+           android:textSize="16dp"
+           android:paddingVertical="5dp"
+           android:textColorLink="@color/white"
+
+           android:paddingHorizontal="10dp"
+           android:textColor="@color/black"
+           android:layout_marginTop="15dp"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/buttons"
+           android:id="@+id/btn_goBack"
+           android:text="Go Back"
+           android:textSize="16dp"
+           android:paddingVertical="5dp"
+           android:textColorLink="@color/white"
+
+           android:layout_marginHorizontal="5dp"
+           android:paddingHorizontal="10dp"
+           android:textColor="@color/black"
+           android:layout_marginTop="15dp"/>
+   </LinearLayout>
+
+</LinearLayout>

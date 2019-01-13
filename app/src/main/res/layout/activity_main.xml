@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_text"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_search_location"
+        android:hint="@string/loc_search"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_location_search"
+        android:drawableStart="@drawable/ic_location_search"
+        android:textSize="25dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_search_group"
+        android:hint="@string/group_search"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@drawable/ic_blood_group"
+        android:drawableStart="@drawable/ic_blood_group"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:paddingHorizontal="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+     <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_rate_us"
+            android:layout_marginHorizontal="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Rate Us"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_share"
+            android:layout_marginHorizontal="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:text="Share"/>
+
+    </LinearLayout>
+
+</LinearLayout>
